@@ -2,7 +2,7 @@
 
 frmt="%-10s%-10s%-80s%-20s\n"
 
-printf "$fmt" PID USER NAME COMM
+printf "$frmt" PID USER NAME COMM
 
 for proc in `ls  /proc/ | egrep "^[0-9]" | sort -n`
     do
