@@ -16,4 +16,4 @@
 У скрипта   [ps.sh](https://github.com/UtrGrd/otus_hw12_proc/blob/main/ps.sh) не удалось избежать вывода сообщения об ошибках вида:
 >./ps.sh: строка 12: предупреждение: подстановка команды: во входных данных проигнорирован нулевой байт
 
-У скрипта [lsof.sh](https://github.com/UtrGrd/otus_hw12_proc/blob/main/lsof.sh) в выводе ```/proc/$proc/comm``` пришлось удалить пробелы для избежания переноса строки
+У скрипта [lsof.sh](https://github.com/UtrGrd/otus_hw12_proc/blob/main/lsof.sh) в выводе ```/proc/$proc/comm``` пришлось заменить пробелы на ```_``` для избежания переноса строки
