@@ -2,7 +2,7 @@
 
 frmt="%-15s%-15s%-30s\t%-20s\n"
 
-printf "$fmt" PID USER COMM STAT
+printf "$frmt" PID USER COMM STAT
 
 for proc in `ls /proc/ | egrep "^[0-9]" | sort -n`
 do
